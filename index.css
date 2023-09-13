@@ -1,0 +1,88 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif; 
+}
+
+nav {
+    height: 8vh;
+    background-color: #080202;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin: auto 0;
+}
+
+.nav-link > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.slide1 {
+    background-color: #080202;
+    max-width: 2000px;
+    position: relative;
+}
+
+.slide1-img {
+    width: 100%;
+    box-sizing: inherit;
+}
+.main-content {
+    text-align: center;
+}
+
+.slide1-text {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    transform: (-50%,0%);
+    box-sizing: inherit;
+    line-height: 35px;
+    left: 50%;
+    padding: 32px 0;
+}
+
+.band {
+    padding: 0 64px;
+    max-width: 800px;
+    margin:auto
+}
+
+.band-h2 {
+    letter-spacing: 4px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.band-i {
+    opacity: 0.6;
+}
+
+.band-p {
+    text-align: justify;
+}
+
+.band-tee {
+    padding: auto 32px;
+}
